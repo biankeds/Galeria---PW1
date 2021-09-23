@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 255, 221);
+}
+.titulo-galeria h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2d6444;
+    margin-top: 20px;
+}
+.texto-galeria {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Mali', cursive;
+    color: #000000;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.container {
+    margin: auto;
+    margin-top: 22px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    padding: 20px;
+}
+.polaroid {
+    background-color: #fff;
+    padding: 15px 15px 40px;
+}
+.photo {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+.polaroid-titulo-a-seleçao {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #254e54;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-para-todos-os-garotos {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #4b3c3f;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-teto-para-dois {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #7b1717;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-seojun {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #752f85;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-soojin {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #667234;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-sol {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #31262a;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-morango {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #8b0d19;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-melancia {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #a33939;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-uva-verde {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #727e12;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-parque {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #759bd9;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-parque-d {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #00225c;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-parque-a {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #1b702c;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-filme1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #642250;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-filme2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #ca2428;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-filme3 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #320b80;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-pintura {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #537c5e;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-miçanga {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #ff5d04;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.polaroid-titulo-ler {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #36526a;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.texto {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
